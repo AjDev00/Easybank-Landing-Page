@@ -6,7 +6,13 @@ export default {
         "./resources/**/*.vue",
     ],
     theme: {
-        extend: {},
+        extend: {
+            backgroundImage: {
+                // mobileBgImage:
+                //     "url('/src/assets/home/background-home-mobile.jpg')",
+                desktopBgImage: "url('/images/bg-intro-desktop.svg')",
+            },
+        },
     },
     plugins: [],
 };
