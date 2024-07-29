@@ -18,5 +18,13 @@
     <div>
         @include('components.why-choose-us')
     </div>
+
+    <div>
+        @include('components.latest-articles')
+    </div>
+
+    <div>
+        @include('components.footer')
+    </div>
 </body>
 </html>

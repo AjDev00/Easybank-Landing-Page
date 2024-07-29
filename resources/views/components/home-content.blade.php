@@ -11,7 +11,7 @@
         </div>
     </div>
     <div>
-        <img src="{{ asset("images/bg-intro-desktop.svg") }}" alt="" class="ml-60">
+        <img src="{{ asset("images/bg-intro-desktop.svg") }}" alt="" class="ml-60 -mt-16">
         <img src="{{ asset('images/image-mockups.png') }}" alt="" class="absolute -top-20 ml-40">
     </div>
 </div>
