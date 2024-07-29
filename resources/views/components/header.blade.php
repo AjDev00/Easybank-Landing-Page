@@ -7,11 +7,11 @@
     <!-- @vite('resources/css/app.css') -->
 </head>
 <body>
-    <div class="flex flex-row justify-between items-center px-7 pt-1.5">
+    <div class="flex flex-row justify-between items-center px-20 py-3 bg-white z-10 relative">
         <div>
             <img src="{{ asset("images/logo.svg") }}" alt="" class="">
         </div>
-        <div class="flex flex-row gap-7">
+        <div class="flex flex-row gap-7 tracking-tighter">
             <div class="opacity-50 hover:opacity-100 hover:border-b-2 hover:border-green-400 hover:cursor-pointer font-semibold p-1">Home</div>
             <div class=" opacity-50 hover:opacity-100 hover:border-b-2 hover:border-green-400 hover:cursor-pointer font-semibold p-1">About</div>
             <div class=" opacity-50 hover:opacity-100 hover:border-b-2 hover:border-green-400 hover:cursor-pointer font-semibold p-1">Contact</div>

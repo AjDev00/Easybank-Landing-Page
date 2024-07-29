@@ -6,13 +6,17 @@
     <title>Home Page</title>
     @vite('resources/css/app.css')
 </head>
-<body>
+<body class="overflow-x-hidden">
     <div>
         @include('components.header')
     </div>
 
     <div>
         @include('components.home-content')
+    </div>
+
+    <div>
+        @include('components.why-choose-us')
     </div>
 </body>
 </html>
