@@ -9,7 +9,7 @@
                 <img src="{{ asset('images/youtube.svg') }}" class="w-6 h-6 invert font-bold">
                 <img src="{{ asset('images/twitter.svg') }}" class="w-6 h-6 invert font-bold">
                 <img src="{{ asset('images/pinterest.svg') }}" class="w-6 h-6 invert font-bold">
-                <img src="{{ asset('images/instagram.svg') }}" class="w-6 h-6 invert font-bold hover:bg-green-500">
+                <img src="{{ asset('images/instagram.svg') }}" class="w-6 h-6 invert font-bold">
             </div>
         </div>
         <div class="flex flex-row gap-28 text-white">
